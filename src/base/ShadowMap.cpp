@@ -11,7 +11,10 @@ Mat4f LightSource::getPosToLightClip() const
     // You'll need to construct the matrix that sends world space points to
     // points in the light source's clip space. You'll need to somehow use
     // m_xform, which describes the light source pose, and Mat4f::perspective().
-    return Mat4f(); // placeholder
+
+	// done
+
+	return Mat4f::perspective(this->m_far, 0.01, 1000) * this->m_xform;
 }
 
 void LightSource::renderShadowedScene(GLContext *gl, MeshWithColors *scene, const Mat4f& worldToCamera, const Mat4f& projection, bool fromLight)
@@ -81,6 +84,8 @@ void LightSource::renderShadowedScene(GLContext *gl, MeshWithColors *scene, cons
                     texCoordVarying = texCoordAttrib;
 
                     // YOUR CODE HERE (R3): Compute the position of vertex in the light's clip space and pass it to the fragment shader.
+
+					posLightClip = posToLightClip * pos;
 
                     // Debug hack that renders the scene from the light's view, activated by a toggle button in the UI:
                     if (renderFromLight) {
@@ -173,7 +178,15 @@ void LightSource::renderShadowedScene(GLContext *gl, MeshWithColors *scene, cons
                     // Be aware, though, that the NDC coordinates will  be in range [-1, 1] whereas UV coordinates need to be in range [0, 1],
                     // and the value fetch from the GL_DEPTH_COMPONENT depth texture will return a number in range [0, 1].
                     // You can transform between these spaces by affine transformations, i.e. multiply, then add.
-                    float shadow = 1.0;
+                    
+					vec2 posLightNDC = vec2(posLightClip) / posLightClip.w;
+					vec2 posLightUV = posLightNDC / 2 + 0.5;
+
+					float depth = texture2D(shadowSampler, posLightUV).z * 2 - 1;
+					
+					float shadow = 1.0;
+
+					if ()
 
                     diffuseColor.rgb *= shading * shadow * cone;
 
@@ -248,7 +261,10 @@ void LightSource::renderShadowMap(FW::GLContext *gl, MeshWithColors *scene, Shad
                 void main()
                 {
                     // YOUR CODE HERE (R3): Transform the vertex to the light's clip space.
-                    gl_Position = vec4(positionAttrib, 1.0); // placeholder
+
+					// done
+
+                    gl_Position = posToLightClip * vec4(positionAttrib, 1.0); // placeholder
                 }
             ),
             FW_GL_SHADER_SOURCE(
