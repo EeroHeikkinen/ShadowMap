@@ -1,5 +1,5 @@
 *.bin
-bin/*
+bin/base*
 build/*
 base.sdf
 
