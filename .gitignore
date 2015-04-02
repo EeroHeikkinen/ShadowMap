@@ -1,0 +1,6 @@
+*.bin
+bin/*
+build/*
+msvc/*
+base.sdf
+
