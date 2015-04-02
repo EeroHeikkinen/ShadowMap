@@ -165,9 +165,19 @@ void LightSource::renderShadowedScene(GLContext *gl, MeshWithColors *scene, cons
                     // Be careful with the lightFOVRad -- it contains the angle of full angle of opening,
                     // which is twice the angle of the cone against its axis. Often times you want the latter.
                     
+					vec3 lightToPos = lightPosEye - positionVarying;
+					float distance = length(lightToPos);
+					vec3 lightToPosNormalized = lightToPos / distance;
+					float incomingVsSurfaceNormal = max(0, lightToPosNormalized.dot(normalVarying));
+					float incomingVsLightDirection = max(0, lightToPosNormalized.dot(lightDirEye));
+					float inverseSqDistance = 1 / (distance*distance);
+					if (inverseSqDistance > 10)
+						inverseSqDistance = 10;
 
-
-					vec3 shading = vec3(1.0); // placeholder
+					vec3 shading = incomingVsSurfaceNormal 
+						* incomingVsLightDirection 
+						* inverseSqDistance
+						* lightE; // placeholder
                     float cone = 1.0; // placeholder
 
                     // YOUR CODE HERE (R3):
@@ -185,8 +195,6 @@ void LightSource::renderShadowedScene(GLContext *gl, MeshWithColors *scene, cons
 					float depth = texture2D(shadowSampler, posLightUV).z * 2 - 1;
 					
 					float shadow = 1.0;
-
-					if ()
 
                     diffuseColor.rgb *= shading * shadow * cone;
 
