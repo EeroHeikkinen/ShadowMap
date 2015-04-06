@@ -1,4 +1,4 @@
-#include "ShadowMap.hpp"
+﻿#include "ShadowMap.hpp"
 
 
 namespace FW 
@@ -14,11 +14,12 @@ Mat4f LightSource::getPosToLightClip() const
 
 	// done
 
-	return Mat4f::perspective(this->m_far, 0.01, 1000) * this->m_xform;
+	return Mat4f::perspective(this->m_fov, this->m_near, this->m_far) * m_xform.inverted();
 }
 
 void LightSource::renderShadowedScene(GLContext *gl, MeshWithColors *scene, const Mat4f& worldToCamera, const Mat4f& projection, bool fromLight)
 {
+	Vec3f pos = getPosition();
     // Get or build the shader that renders the scene using the shadow map
     GLContext::Program *prog = gl->getProgram("MeshBase::draw_generic");
     if (!prog)
@@ -165,11 +166,12 @@ void LightSource::renderShadowedScene(GLContext *gl, MeshWithColors *scene, cons
                     // Be careful with the lightFOVRad -- it contains the angle of full angle of opening,
                     // which is twice the angle of the cone against its axis. Often times you want the latter.
                     
+					
 					vec3 lightToPos = lightPosEye - positionVarying;
 					float distance = length(lightToPos);
 					vec3 lightToPosNormalized = lightToPos / distance;
-					float incomingVsSurfaceNormal = max(0, lightToPosNormalized.dot(normalVarying));
-					float incomingVsLightDirection = max(0, lightToPosNormalized.dot(lightDirEye));
+					float incomingVsSurfaceNormal = max(0, dot(lightToPosNormalized, normalVarying));
+					float incomingVsLightDirection = max(0, -dot(lightToPosNormalized, normalize(lightDirEye)));
 					float inverseSqDistance = 1 / (distance*distance);
 					if (inverseSqDistance > 10)
 						inverseSqDistance = 10;
@@ -177,9 +179,10 @@ void LightSource::renderShadowedScene(GLContext *gl, MeshWithColors *scene, cons
 					vec3 shading = incomingVsSurfaceNormal 
 						* incomingVsLightDirection 
 						* inverseSqDistance
-						* lightE; // placeholder
-                    float cone = 1.0; // placeholder
-
+						* lightE;
+					
+					float cone = max(0, min(1, 4* (incomingVsLightDirection - cos(lightFOVRad / 2)) / (1-cos(lightFOVRad/2) )));
+					
                     // YOUR CODE HERE (R3):
                     // Here you need to transform the position in light's clip space into light's NDC space to get the depth value and
                     // the UV coordinates for reading the stored depth value. Once you have those, you need to compare the NDC depth value
@@ -189,12 +192,15 @@ void LightSource::renderShadowedScene(GLContext *gl, MeshWithColors *scene, cons
                     // and the value fetch from the GL_DEPTH_COMPONENT depth texture will return a number in range [0, 1].
                     // You can transform between these spaces by affine transformations, i.e. multiply, then add.
                     
-					vec2 posLightNDC = vec2(posLightClip) / posLightClip.w;
-					vec2 posLightUV = posLightNDC / 2 + 0.5;
+					vec3 posLightNDC = posLightClip.xyz / posLightClip.w;
+					vec2 posLightUV = posLightNDC.xy / 2 + 0.5;
 
-					float depth = texture2D(shadowSampler, posLightUV).z * 2 - 1;
-					
+					float shadowMapDepth = texture2D(shadowSampler, posLightUV).r * 2 - 1;
 					float shadow = 1.0;
+
+					if (shadowMapDepth < posLightNDC.z)
+						shadow = 0;
+
 
                     diffuseColor.rgb *= shading * shadow * cone;
 
@@ -272,7 +278,7 @@ void LightSource::renderShadowMap(FW::GLContext *gl, MeshWithColors *scene, Shad
 
 					// done
 
-                    gl_Position = posToLightClip * vec4(positionAttrib, 1.0); // placeholder
+					gl_Position = posToLightClip * vec4(positionAttrib, 1.0); // placeholder
                 }
             ),
             FW_GL_SHADER_SOURCE(
@@ -331,15 +337,12 @@ void LightSource::sampleEmittedRays(int num, std::vector<Vec3f>& origs, std::vec
     origs.reserve(num);
     dirs.reserve(num);
     E_times_pdf.reserve(num);
-
+	
 	for (int i = 0; i < num; i++) {
-
-		origs[i] = getPosition();
-
 		float x, y;
 		do {
-			x = rand.getF32();
-			y = rand.getF32();
+			x = rand.getF32() * 2 - 1;
+			y = rand.getF32() * 2 - 1;
 		} while (FW::sqrt(x*x + y*y) > 1);
 
 		float r = FW::sin(m_fov / 2);
@@ -350,14 +353,14 @@ void LightSource::sampleEmittedRays(int num, std::vector<Vec3f>& origs, std::vec
 
 		p *= m_far;
 
-		dirs[i] = p;
 
-		E_times_pdf[num] = m_E / num * r*r;
+		origs.push_back(getPosition());
+
+		Mat3f changeOfBasis = formBasis(getNormal());
+
+		dirs.push_back(changeOfBasis * p);
+		E_times_pdf.push_back(m_E / num * r*r);
 	}
-
-    // YOUR CODE HERE (R4):
-    // Fill the three vectors with #num ray origins, directions, and intensities divided by probability density.
-    // Note that the lambert cosine of the diffuse area light will cancel out.
 
     // See the instructions.
 }
