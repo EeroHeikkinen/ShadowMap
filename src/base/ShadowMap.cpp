@@ -338,11 +338,8 @@ void LightSource::sampleEmittedRays(int num, std::vector<Vec3f>& origs, std::vec
     origs.reserve(num);
     dirs.reserve(num);
     E_times_pdf.reserve(num);
-
+	
 	for (int i = 0; i < num; i++) {
-
-		origs[i] = getPosition();
-
 		float x, y;
 		do {
 			x = rand.getF32();
@@ -357,24 +354,10 @@ void LightSource::sampleEmittedRays(int num, std::vector<Vec3f>& origs, std::vec
 
 		p *= m_far;
 
-		dirs[i] = p;
 
-		E_times_pdf[num] = m_E / num * r*r;
-	}
-
-    // YOUR CODE HERE (R4):
-    // Fill the three vectors with #num ray origins, directions, and intensities divided by probability density.
-    // Note that the lambert cosine of the diffuse area light will cancel out.
-
-	for (int i = 0; i < num; i++) {
-		origs[num] = getPosition();
-		
-		float x, y;
-		do {
-			x = rand.getF32();
-			y = rand.getF32();
-		} while (FW::sqrt(x*x + y*y) > 1);
-
+		origs.push_back(getPosition());
+		dirs.push_back(p);
+		E_times_pdf.push_back(m_E / num * r*r);
 	}
 
     // See the instructions.
