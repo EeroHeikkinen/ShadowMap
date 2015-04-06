@@ -33,7 +33,7 @@ void InstantRadiosity::castIndirect(RayTracer *rt, MeshWithColors *scene, const 
     // based on what happens to the ray.
     for (int i = 0; i < num; i++)
     {
-        RaycastResult hit; // = rt->raycast(origs[i], dirs[i]);
+        RaycastResult hit = rt->raycast(origs[i], dirs[i]);
 
         if ( hit.tri != nullptr )
         {
@@ -42,9 +42,54 @@ void InstantRadiosity::castIndirect(RayTracer *rt, MeshWithColors *scene, const 
             // color it based on the texture or diffuse color, etc. (see the LightSource declaration for the list 
             // of things that a light source needs to have)
             // A lot of this code is like in the Assignment 2's corresponding routine.
+			
+			// done
 
             // Replace this with true once your light is ready to be used in rendering:
-            m_indirectLights[i].setEnabled(false);
+            m_indirectLights[i].setEnabled(true);
+
+			Vec3f n = hit.tri->normal();
+
+			// 1. Hit point
+			m_indirectLights[i].setPosition(hit.point + n * 0.1);
+
+			// 2. Direction
+			m_indirectLights[i].setOrientation(formBasis(-n));
+
+			// 3. Field of view
+			m_indirectLights[i].setFOV(m_indirectFOV);
+
+			Vec3f diffuse;
+
+			auto mat = hit.tri->m_material;
+
+			/*
+			Texture diffuseTex;
+			if (mat->textures->exists() && (diffuseTex = mat->textures[MeshBase::TextureType_Diffuse]).exists()) {
+				auto diffuseTex = mat->textures[MeshBase::TextureType_Diffuse];
+
+				// YOUR CODE HERE (R3):
+				// using the barycentric coordinates of the intersection (hit.u, hit.v) and the
+				// vertex texture coordinates (hit.tri->m_vertices[i].t) of the intersected triangle,
+				// compute the uv coordinate of the intersection point.
+				Vec2f uv = Vec2f(.0f);
+
+				if (diffuseTex.exists()) //check whether material uses a diffuse texture
+				{
+					const Image& img = *diffuseTex.getImage();
+					//fetch diffuse color from texture
+					Vec2i texelCoords = getTexelCoords(uv, img.getSize());
+					diffuse = img.getVec4f(texelCoords).getXYZ();
+				}
+				
+			}
+			else {
+			*/
+				diffuse = mat->diffuse.getXYZ();
+			//}
+
+			// 4. Emission
+			m_indirectLights[i].setEmission(diffuse * E_times_pdf[i]);
         }
         else
         {
@@ -58,7 +103,22 @@ void InstantRadiosity::renderShadowMaps(MeshWithColors *scene)
 {
     // YOUR CODE HERE (R4):
     // Loop through all lights, and call the shadow map renderer for those that are enabled.
+
+	// done
+
+	//printf("num light sources: %d", m_indirectLights.size());
+
+	for (size_t i = 0; i < m_indirectLights.size(); i++) {
+		LightSource* light = &m_indirectLights[i];
+		if (light->isEnabled())
+		light->renderShadowMap(m_gl, scene, &m_smContext);
+		
+
+		//printf("rendered with handle %d \n", light->getShadowTextureHandle());
+	}
     // (see App::renderFrame for an example usage of the shadow map rendering call)
+
+	//printf("lights %d ", m_indirectLights.size());
 }
 
 

@@ -33,6 +33,37 @@ Mat3f formBasis(const Vec3f& n) {
     // YOUR CODE HERE (R1):
     // Integrate your implementation here.
     return rtlib::formBasis(n);
+
+	/* Construct change of basis matrix */
+	Vec3f q = n;
+
+	// Set smallest element to 1
+	if (FW::abs(q.x) < FW::abs(q.y)) {
+		if (FW::abs(q.x) < FW::abs(q.z)) {
+			q.x = 1;
+		}
+		else {
+			q.z = 1;
+		}
+	}
+	else {
+		if (FW::abs(q.y) < FW::abs(q.z)) {
+			q.y = 1;
+		}
+		else {
+			q.z = 1;
+		}
+	}
+
+	Vec3f t = n.cross(q).normalized();
+	Vec3f b = n.cross(t);
+
+	Mat3f changeOfBasis;
+	changeOfBasis.setCol(0, t);
+	changeOfBasis.setCol(1, b);
+	changeOfBasis.setCol(2, n);
+
+	return changeOfBasis;
 }
 
 

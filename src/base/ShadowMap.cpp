@@ -20,7 +20,6 @@ Mat4f LightSource::getPosToLightClip() const
 void LightSource::renderShadowedScene(GLContext *gl, MeshWithColors *scene, const Mat4f& worldToCamera, const Mat4f& projection, bool fromLight)
 {
 	Vec3f pos = getPosition();
-	printf("Light pos x %.2f y %.2f z %.2f\n", pos.x, pos.y, pos.z);
     // Get or build the shader that renders the scene using the shadow map
     GLContext::Program *prog = gl->getProgram("MeshBase::draw_generic");
     if (!prog)
@@ -342,8 +341,8 @@ void LightSource::sampleEmittedRays(int num, std::vector<Vec3f>& origs, std::vec
 	for (int i = 0; i < num; i++) {
 		float x, y;
 		do {
-			x = rand.getF32();
-			y = rand.getF32();
+			x = rand.getF32() * 2 - 1;
+			y = rand.getF32() * 2 - 1;
 		} while (FW::sqrt(x*x + y*y) > 1);
 
 		float r = FW::sin(m_fov / 2);
@@ -356,7 +355,10 @@ void LightSource::sampleEmittedRays(int num, std::vector<Vec3f>& origs, std::vec
 
 
 		origs.push_back(getPosition());
-		dirs.push_back(p);
+
+		Mat3f changeOfBasis = formBasis(getNormal());
+
+		dirs.push_back(changeOfBasis * p);
 		E_times_pdf.push_back(m_E / num * r*r);
 	}
 
