@@ -5,20 +5,6 @@ Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
 Ni 1.00
 Ks 0.81 0.81 0.81
-newmtl Button_Eyes_Blend_Shapes_grouped_export1:phongE1SG
-illum 4
-Kd 0.00 0.00 0.00
-Ka 0.00 0.00 0.00
-Tf 1.00 1.00 1.00
-Ni 1.00
-Ks 0.81 0.81 0.81
-newmtl Button_Eyes_Blend_Shapes_grouped_export2:phongE1SG
-illum 4
-Kd 0.00 0.00 0.00
-Ka 0.00 0.00 0.00
-Tf 1.00 1.00 1.00
-Ni 1.00
-Ks 0.81 0.81 0.81
 newmtl initialShadingGroup
 illum 4
 Kd 0.50 0.50 0.50
