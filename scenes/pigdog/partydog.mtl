@@ -1,13 +1,41 @@
-newmtl Button_Eyes_Blend_Shapes_grouped_export:phongE1SG
-illum 4
-Kd 0.00 0.00 0.00
-Ka 0.00 0.00 0.00
-Tf 1.00 1.00 1.00
-Ni 1.00
-Ks 0.81 0.81 0.81
-newmtl initialShadingGroup
-illum 4
-Kd 0.50 0.50 0.50
-Ka 0.00 0.00 0.00
-Tf 1.00 1.00 1.00
-Ni 1.00
+#
+## Alias OBJ Material File
+# Exported from SketchUp, (c) 2000-2012 Trimble Navigation Limited
+
+newmtl initialShadingGroup1
+Ka 0.000000 0.000000 0.000000
+Kd 0.498039 0.498039 0.498039
+Ks 0.330000 0.330000 0.330000
+
+newmtl Button_Eyes_Blend_Shapes_grouped_export_phongE1SG1
+Ka 0.000000 0.000000 0.000000
+Kd 0.000000 0.000000 0.000000
+Ks 0.330000 0.330000 0.330000
+
+newmtl Wood_Floor_Light
+Ka 0.000000 0.000000 0.000000
+Kd 0.796078 0.690196 0.494118
+Ks 0.330000 0.330000 0.330000
+map_Kd partydog/Wood_Floor_Light.jpg
+
+newmtl _1
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.330000 0.330000 0.330000
+
+newmtl _13
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 0.600000
+Ks 0.330000 0.330000 0.330000
+
+newmtl _2
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 1.000000 0.400000
+Ks 0.330000 0.330000 0.330000
+
+newmtl _5
+Ka 0.000000 0.000000 0.000000
+Kd 0.670588 0.690196 0.800000
+Ks 0.330000 0.330000 0.330000
+d 0.000000
+
