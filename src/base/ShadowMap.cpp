@@ -345,7 +345,7 @@ void LightSource::sampleEmittedRays(int num, std::vector<Vec3f>& origs, std::vec
 			y = rand.getF32() * 2 - 1;
 		} while (FW::sqrt(x*x + y*y) > 1);
 
-		float r = FW::sin(m_fov / 2);
+		float r = FW::sin(getFOVRad() / 2);
 		x *= r;
 		y *= r;
 

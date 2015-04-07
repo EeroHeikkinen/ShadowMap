@@ -51,7 +51,7 @@ void InstantRadiosity::castIndirect(RayTracer *rt, MeshWithColors *scene, const 
 			Vec3f n = hit.tri->normal();
 
 			// 1. Hit point
-			m_indirectLights[i].setPosition(hit.point + n * 0.1);
+			m_indirectLights[i].setPosition(hit.point);
 
 			// 2. Direction
 			m_indirectLights[i].setOrientation(formBasis(-n));
@@ -63,7 +63,7 @@ void InstantRadiosity::castIndirect(RayTracer *rt, MeshWithColors *scene, const 
 
 			auto mat = hit.tri->m_material;
 
-			/*
+			
 			Texture diffuseTex;
 			if (mat->textures->exists() && (diffuseTex = mat->textures[MeshBase::TextureType_Diffuse]).exists()) {
 				auto diffuseTex = mat->textures[MeshBase::TextureType_Diffuse];
@@ -84,9 +84,8 @@ void InstantRadiosity::castIndirect(RayTracer *rt, MeshWithColors *scene, const 
 				
 			}
 			else {
-			*/
 				diffuse = mat->diffuse.getXYZ();
-			//}
+			}
 
 			// 4. Emission
 			m_indirectLights[i].setEmission(diffuse * E_times_pdf[i]);
