@@ -1,296 +1,2066 @@
 #
-## Alias OBJ Material File
-# Exported from SketchUp, (c) 2000-2012 Trimble Navigation Limited
+#
+#
 
-newmtl _18
+newmtl Mesh1 G_3DGeom_1 Assembly_1 SimLab_2015_04_07_15_25_20_1 Model Mesh__18
+illum 2
 Ka 0.000000 0.000000 0.000000
 Kd 0.533333 0.168627 0.152941
 Ks 0.330000 0.330000 0.330000
+Ns 0.000000
 
-newmtl _19
-Ka 0.000000 0.000000 0.000000
-Kd 0.752941 0.278431 0.172549
-Ks 0.330000 0.330000 0.330000
-
-newmtl _17
-Ka 0.000000 0.000000 0.000000
-Kd 0.866667 0.690196 0.796078
-Ks 0.330000 0.330000 0.330000
-
-newmtl Button_Eyes_Blend_Shapes_grouped_export_phongE1SG1
-Ka 0.000000 0.000000 0.000000
-Kd 0.000000 0.000000 0.000000
-Ks 0.330000 0.330000 0.330000
-
-newmtl FrontColor
+newmtl Mesh10 christmas_presents1 Model Mesh_FrontColor
+illum 2
 Ka 0.000000 0.000000 0.000000
 Kd 1.000000 1.000000 1.000000
 Ks 0.330000 0.330000 0.330000
+Ns 0.000000
 
-newmtl _DarkRed_
-Ka 0.000000 0.000000 0.000000
-Kd 0.545098 0.000000 0.000000
-Ks 0.330000 0.330000 0.330000
-
-newmtl _DarkGreen_
+newmtl Mesh10 christmas_presents1 Model Mesh__DarkGreen_
+illum 2
 Ka 0.000000 0.000000 0.000000
 Kd 0.000000 0.392157 0.000000
 Ks 0.330000 0.330000 0.330000
+Ns 0.000000
 
-newmtl _Gold_
+newmtl Mesh10 christmas_presents1 Model Mesh__Gold_
+illum 2
 Ka 0.000000 0.000000 0.000000
 Kd 1.000000 0.843137 0.000000
 Ks 0.330000 0.330000 0.330000
+Ns 0.000000
 
-newmtl _MidnightBlue_
+newmtl Mesh10 christmas_presents1 Model Mesh__MidnightBlue_
+illum 2
 Ka 0.000000 0.000000 0.000000
 Kd 0.098039 0.098039 0.439216
 Ks 0.330000 0.330000 0.330000
+Ns 0.000000
 
-newmtl _39
-Ka 0.000000 0.000000 0.000000
-Kd 0.400000 1.000000 1.000000
-Ks 0.330000 0.330000 0.330000
-
-newmtl _43
-Ka 0.000000 0.000000 0.000000
-Kd 0.600000 0.600000 0.600000
-Ks 0.330000 0.330000 0.330000
-
-newmtl _38
-Ka 0.000000 0.000000 0.000000
-Kd 0.400000 0.400000 1.000000
-Ks 0.330000 0.330000 0.330000
-
-newmtl _42
-Ka 0.000000 0.000000 0.000000
-Kd 1.000000 1.000000 0.000000
-Ks 0.330000 0.330000 0.330000
-
-newmtl _40
-Ka 0.000000 0.000000 0.000000
-Kd 1.000000 0.800000 0.400000
-Ks 0.330000 0.330000 0.330000
-
-newmtl _37
-Ka 0.000000 0.000000 0.000000
-Kd 0.400000 1.000000 0.400000
-Ks 0.330000 0.330000 0.330000
-
-newmtl _36
-Ka 0.000000 0.000000 0.000000
-Kd 1.000000 0.400000 0.400000
-Ks 0.330000 0.330000 0.330000
-
-newmtl _41
-Ka 0.000000 0.000000 0.000000
-Kd 0.800000 0.400000 1.000000
-Ks 0.330000 0.330000 0.330000
-
-newmtl Color_I06
-Ka 0.000000 0.000000 0.000000
-Kd 0.000000 0.000000 0.800000
-Ks 0.330000 0.330000 0.330000
-
-newmtl M_0063_GreenYellow
-Ka 0.000000 0.000000 0.000000
-Kd 0.678431 1.000000 0.184314
-Ks 0.330000 0.330000 0.330000
-
-newmtl M_0002_MediumVioletRed
-Ka 0.000000 0.000000 0.000000
-Kd 0.780392 0.082353 0.521569
-Ks 0.330000 0.330000 0.330000
-
-newmtl Color_A09
+newmtl Mesh100 Group53 Group35 Group1 Flowers1 Model Mesh_Color_A09
+illum 2
 Ka 0.000000 0.000000 0.000000
 Kd 0.800000 0.478431 0.478431
 Ks 0.330000 0.330000 0.330000
+Ns 0.000000
 
-newmtl Color_E04
+newmtl Mesh101 Group54 Group35 Group1 Flowers1 Model Mesh_Color_A09
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.478431 0.478431
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh102 Group55 Group35 Group1 Flowers1 Model Mesh_Color_A09
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.478431 0.478431
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh103 Group56 Group35 Group1 Flowers1 Model Mesh_Color_A09
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.478431 0.478431
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh104 Group57 Group35 Group1 Flowers1 Model Mesh_Color_A09
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.478431 0.478431
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh105 Group58 Group35 Group1 Flowers1 Model Mesh_Color_A09
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.478431 0.478431
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh106 Group59 Group35 Group1 Flowers1 Model Mesh_Color_A09
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.478431 0.478431
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh107 Group60 Group35 Group1 Flowers1 Model Mesh_Color_A09
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.478431 0.478431
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh108 Group61 Group35 Group1 Flowers1 Model Mesh_Color_A09
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.478431 0.478431
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh109 Group62 Group35 Group1 Flowers1 Model Mesh_Color_E04
+illum 2
 Ka 0.000000 0.000000 0.000000
 Kd 1.000000 1.000000 0.600000
 Ks 0.330000 0.330000 0.330000
+Ns 0.000000
 
-newmtl Color_F14
+newmtl Mesh109 Group62 Group35 Group1 Flowers1 Model Mesh_Color_F14
+illum 2
 Ka 0.000000 0.000000 0.000000
 Kd 0.478431 0.600000 0.356863
 Ks 0.330000 0.330000 0.330000
+Ns 0.000000
 
-newmtl Color_002
+newmtl Mesh11 christmas_presents1 Model Mesh__Gold_
+illum 2
 Ka 0.000000 0.000000 0.000000
-Kd 0.776471 0.776471 0.776471
+Kd 1.000000 0.843137 0.000000
 Ks 0.330000 0.330000 0.330000
+Ns 0.000000
 
-newmtl Color_H09
+newmtl Mesh110 Group63 Group35 Group1 Flowers1 Model Mesh_Color_A09
+illum 2
 Ka 0.000000 0.000000 0.000000
-Kd 0.478431 0.800000 0.800000
+Kd 0.800000 0.478431 0.478431
 Ks 0.330000 0.330000 0.330000
+Ns 0.000000
 
-newmtl _Black_
+newmtl Mesh111 Group64 Group35 Group1 Flowers1 Model Mesh_Color_A09
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.478431 0.478431
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh112 Group65 Group35 Group1 Flowers1 Model Mesh_Color_A09
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.478431 0.478431
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh113 Group66 Group35 Group1 Flowers1 Model Mesh_Color_A09
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.478431 0.478431
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh114 Group68 Group67 Group1 Flowers1 Model Mesh_Color_A09
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.478431 0.478431
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh115 Group69 Group67 Group1 Flowers1 Model Mesh_Color_A09
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.478431 0.478431
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh116 Group70 Group67 Group1 Flowers1 Model Mesh_Color_A09
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.478431 0.478431
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh117 Group71 Group67 Group1 Flowers1 Model Mesh_Color_A09
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.478431 0.478431
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh118 Group72 Group67 Group1 Flowers1 Model Mesh_Color_A09
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.478431 0.478431
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh119 Group73 Group67 Group1 Flowers1 Model Mesh_Color_A09
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.478431 0.478431
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh12 Balloon1 Balloons1 Model Mesh__39
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.400000 1.000000 1.000000
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh120 Group74 Group67 Group1 Flowers1 Model Mesh_Color_A09
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.478431 0.478431
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh121 Group75 Group67 Group1 Flowers1 Model Mesh_Color_A09
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.478431 0.478431
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh122 Group76 Group67 Group1 Flowers1 Model Mesh_Color_A09
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.478431 0.478431
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh123 Group77 Group67 Group1 Flowers1 Model Mesh_Color_A09
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.478431 0.478431
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh124 Group78 Group67 Group1 Flowers1 Model Mesh_Color_A09
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.478431 0.478431
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh125 Group79 Group67 Group1 Flowers1 Model Mesh_Color_A09
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.478431 0.478431
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh126 Group80 Group67 Group1 Flowers1 Model Mesh_Color_A09
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.478431 0.478431
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh127 Group81 Group67 Group1 Flowers1 Model Mesh_Color_A09
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.478431 0.478431
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh128 Group82 Group67 Group1 Flowers1 Model Mesh_Color_A09
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.478431 0.478431
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh129 Group83 Group67 Group1 Flowers1 Model Mesh_Color_A09
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.478431 0.478431
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh13 Balloon1 Balloons1 Model Mesh__43
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.600000 0.600000 0.600000
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh130 Group84 Group67 Group1 Flowers1 Model Mesh_Color_A09
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.478431 0.478431
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh131 Group85 Group67 Group1 Flowers1 Model Mesh_Color_A09
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.478431 0.478431
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh132 Group86 Group67 Group1 Flowers1 Model Mesh_Color_A09
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.478431 0.478431
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh133 Group87 Group67 Group1 Flowers1 Model Mesh_Color_A09
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.478431 0.478431
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh134 Group88 Group67 Group1 Flowers1 Model Mesh_Color_A09
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.478431 0.478431
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh135 Group89 Group67 Group1 Flowers1 Model Mesh_Color_A09
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.478431 0.478431
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh136 Group90 Group67 Group1 Flowers1 Model Mesh_Color_A09
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.478431 0.478431
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh137 Group91 Group67 Group1 Flowers1 Model Mesh_Color_A09
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.478431 0.478431
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh138 Group92 Group67 Group1 Flowers1 Model Mesh_Color_A09
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.478431 0.478431
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh139 Group93 Group67 Group1 Flowers1 Model Mesh_Color_A09
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.478431 0.478431
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh14 Balloon2 Balloons1 Model Mesh__38
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.400000 0.400000 1.000000
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh140 Group94 Group67 Group1 Flowers1 Model Mesh_Color_E04
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 0.600000
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh140 Group94 Group67 Group1 Flowers1 Model Mesh_Color_F14
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.478431 0.600000 0.356863
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh141 Group95 Group67 Group1 Flowers1 Model Mesh_Color_A09
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.478431 0.478431
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh142 Group96 Group67 Group1 Flowers1 Model Mesh_Color_A09
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.478431 0.478431
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh143 Group97 Group67 Group1 Flowers1 Model Mesh_Color_A09
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.478431 0.478431
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh144 Group98 Group67 Group1 Flowers1 Model Mesh_Color_A09
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.478431 0.478431
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh145 Coffee_table_leg1 Coffee_table__round1 Round_coffee_table1 Model Mesh__Black_
+illum 2
 Ka 0.000000 0.000000 0.000000
 Kd 0.000000 0.000000 0.000000
 Ks 0.330000 0.330000 0.330000
+Ns 0.000000
 
-newmtl _Wood_cherry_2
+newmtl Mesh146 Coffee_table_leg2 Coffee_table__round1 Round_coffee_table1 Model Mesh__Black_
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.000000 0.000000 0.000000
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh147 Coffee_table_leg3 Coffee_table__round1 Round_coffee_table1 Model Mesh__Black_
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.000000 0.000000 0.000000
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh148 Coffee_table__round1 Round_coffee_table1 Model Mesh_FrontColor
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh148 Coffee_table__round1 Round_coffee_table1 Model Mesh__Wood_cherry_2
+illum 2
 Ka 0.000000 0.000000 0.000000
 Kd 0.929412 0.831373 0.474510
 Ks 0.330000 0.330000 0.330000
-map_Kd partydog/_Wood_cherry_2.jpg
+Ns 0.000000
+map_Kd _Wood_cherry_2.jpg
 
-newmtl Carpet_Frieze_Gray
-Ka 0.000000 0.000000 0.000000
-Kd 1.000000 0.749020 0.000000
-Ks 0.330000 0.330000 0.330000
-map_Kd partydog/Carpet_Frieze_Gray.jpg
-
-newmtl Carpet_Plush_LtGray
-Ka 0.000000 0.000000 0.000000
-Kd 1.000000 0.847059 0.396078
-Ks 0.330000 0.330000 0.330000
-map_Kd partydog/Carpet_Plush_LtGray.jpg
-
-newmtl Carpet_Berber_Pattern_Gray
+newmtl Mesh149 flower_carpet1 Floral_Rug1 Model Mesh_Carpet_Berber_Pattern_Gray
+illum 2
 Ka 0.000000 0.000000 0.000000
 Kd 0.200000 0.117647 0.039216
 Ks 0.330000 0.330000 0.330000
-map_Kd partydog/Carpet_Berber_Pattern_Gray.jpg
+Ns 0.000000
+map_Kd Carpet_Berber_Pattern_Gray.jpg
 
-newmtl _Light_Oliv_
+newmtl Mesh149 flower_carpet1 Floral_Rug1 Model Mesh_Carpet_Frieze_Gray
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 0.749020 0.000000
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+map_Kd Carpet_Frieze_Gray.jpg
+
+newmtl Mesh149 flower_carpet1 Floral_Rug1 Model Mesh_Carpet_Plush_LtGray
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 0.847059 0.396078
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+map_Kd Carpet_Plush_LtGray.jpg
+
+newmtl Mesh15 Balloon2 Balloons1 Model Mesh__43
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.600000 0.600000 0.600000
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh150 Group99 leaf_group1 Tulips_window_planter1 Model Mesh_FrontColor
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh150 Group99 leaf_group1 Tulips_window_planter1 Model Mesh__Light_Oliv_
+illum 2
 Ka 0.000000 0.000000 0.000000
 Kd 0.662745 0.729412 0.392157
 Ks 0.330000 0.330000 0.330000
+Ns 0.000000
 
-newmtl _DarkSeaGreen_
+newmtl Mesh151 Sm_Leaf1 leaf_group1 Tulips_window_planter1 Model Mesh__DarkSeaGreen_
+illum 2
 Ka 0.000000 0.000000 0.000000
 Kd 0.560784 0.737255 0.560784
 Ks 0.330000 0.330000 0.330000
+Ns 0.000000
 
-newmtl _LightGreen_
+newmtl Mesh152 Lg_Leaf1 leaf_group1 Tulips_window_planter1 Model Mesh__DarkSeaGreen_
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.560784 0.737255 0.560784
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh153 Lg_Bent_Leaf1 leaf_group1 Tulips_window_planter1 Model Mesh__DarkSeaGreen_
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.560784 0.737255 0.560784
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh154 Group100 leaf_group2 Tulips_window_planter1 Model Mesh_FrontColor
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh154 Group100 leaf_group2 Tulips_window_planter1 Model Mesh__Light_Oliv_
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.662745 0.729412 0.392157
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh155 Sm_Leaf2 leaf_group2 Tulips_window_planter1 Model Mesh__DarkSeaGreen_
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.560784 0.737255 0.560784
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh156 Lg_Leaf2 leaf_group2 Tulips_window_planter1 Model Mesh__DarkSeaGreen_
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.560784 0.737255 0.560784
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh157 Lg_Bent_Leaf2 leaf_group2 Tulips_window_planter1 Model Mesh__DarkSeaGreen_
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.560784 0.737255 0.560784
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh158 Group101 leaf_group3 Tulips_window_planter1 Model Mesh_FrontColor
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh158 Group101 leaf_group3 Tulips_window_planter1 Model Mesh__Light_Oliv_
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.662745 0.729412 0.392157
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh159 Sm_Leaf3 leaf_group3 Tulips_window_planter1 Model Mesh__DarkSeaGreen_
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.560784 0.737255 0.560784
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh16 Balloon3 Balloons1 Model Mesh__42
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 0.000000
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh160 Lg_Leaf3 leaf_group3 Tulips_window_planter1 Model Mesh__DarkSeaGreen_
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.560784 0.737255 0.560784
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh161 Lg_Bent_Leaf3 leaf_group3 Tulips_window_planter1 Model Mesh__DarkSeaGreen_
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.560784 0.737255 0.560784
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh162 Group102 leaf_group4 Tulips_window_planter1 Model Mesh_FrontColor
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh162 Group102 leaf_group4 Tulips_window_planter1 Model Mesh__Light_Oliv_
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.662745 0.729412 0.392157
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh163 Sm_Leaf4 leaf_group4 Tulips_window_planter1 Model Mesh__DarkSeaGreen_
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.560784 0.737255 0.560784
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh164 Lg_Leaf4 leaf_group4 Tulips_window_planter1 Model Mesh__DarkSeaGreen_
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.560784 0.737255 0.560784
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh165 Lg_Bent_Leaf4 leaf_group4 Tulips_window_planter1 Model Mesh__DarkSeaGreen_
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.560784 0.737255 0.560784
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh166 Lg_Bent_Leaf5 Tulips_window_planter1 Model Mesh__DarkSeaGreen_
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.560784 0.737255 0.560784
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh167 Lg_Broken_Leaf1 Tulips_window_planter1 Model Mesh__LightGreen_
+illum 2
 Ka 0.000000 0.000000 0.000000
 Kd 0.564706 0.933333 0.564706
 Ks 0.330000 0.330000 0.330000
+Ns 0.000000
 
-newmtl _LightCoral_
+newmtl Mesh168 Sm_Leaf5 Tulips_window_planter1 Model Mesh__DarkSeaGreen_
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.560784 0.737255 0.560784
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh169 Group103 leaf_group5 Tulips_window_planter1 Model Mesh_FrontColor
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh169 Group103 leaf_group5 Tulips_window_planter1 Model Mesh__Light_Oliv_
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.662745 0.729412 0.392157
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh17 Balloon3 Balloons1 Model Mesh__43
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.600000 0.600000 0.600000
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh170 Sm_Leaf6 leaf_group5 Tulips_window_planter1 Model Mesh__DarkSeaGreen_
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.560784 0.737255 0.560784
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh171 Lg_Leaf5 leaf_group5 Tulips_window_planter1 Model Mesh__DarkSeaGreen_
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.560784 0.737255 0.560784
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh172 Lg_Bent_Leaf6 leaf_group5 Tulips_window_planter1 Model Mesh__DarkSeaGreen_
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.560784 0.737255 0.560784
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh173 Lg_Leaf6 Tulips_window_planter1 Model Mesh__DarkSeaGreen_
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.560784 0.737255 0.560784
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh174 Group104 leaf_group6 Tulips_window_planter1 Model Mesh_FrontColor
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh174 Group104 leaf_group6 Tulips_window_planter1 Model Mesh__Light_Oliv_
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.662745 0.729412 0.392157
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh175 Sm_Leaf7 leaf_group6 Tulips_window_planter1 Model Mesh__DarkSeaGreen_
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.560784 0.737255 0.560784
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh176 Lg_Leaf7 leaf_group6 Tulips_window_planter1 Model Mesh__DarkSeaGreen_
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.560784 0.737255 0.560784
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh177 Lg_Bent_Leaf7 leaf_group6 Tulips_window_planter1 Model Mesh__DarkSeaGreen_
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.560784 0.737255 0.560784
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh178 Group105 Component_4_1 Tulips_window_planter1 Model Mesh_FrontColor
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh179 Component_4_1 Tulips_window_planter1 Model Mesh_FrontColor
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh18 Balloon4 Balloons1 Model Mesh__40
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 0.800000 0.400000
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh180 Group106 Component_4_2 Tulips_window_planter1 Model Mesh_FrontColor
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh181 Component_4_2 Tulips_window_planter1 Model Mesh_FrontColor
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh182 Group107 Component_4_3 Tulips_window_planter1 Model Mesh_FrontColor
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh183 Component_4_3 Tulips_window_planter1 Model Mesh_FrontColor
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh184 Group108 Component_4_4 Tulips_window_planter1 Model Mesh_FrontColor
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh185 Component_4_4 Tulips_window_planter1 Model Mesh_FrontColor
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh186 Group109 leaf_group7 Tulips_window_planter1 Model Mesh_FrontColor
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh186 Group109 leaf_group7 Tulips_window_planter1 Model Mesh__Light_Oliv_
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.662745 0.729412 0.392157
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh187 Sm_Leaf8 leaf_group7 Tulips_window_planter1 Model Mesh__DarkSeaGreen_
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.560784 0.737255 0.560784
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh188 Lg_Leaf8 leaf_group7 Tulips_window_planter1 Model Mesh__DarkSeaGreen_
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.560784 0.737255 0.560784
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh189 Lg_Bent_Leaf8 leaf_group7 Tulips_window_planter1 Model Mesh__DarkSeaGreen_
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.560784 0.737255 0.560784
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh19 Balloon4 Balloons1 Model Mesh__43
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.600000 0.600000 0.600000
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh190 Group110 Component_4_5 Tulips_window_planter1 Model Mesh_FrontColor
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh191 Component_4_5 Tulips_window_planter1 Model Mesh_FrontColor
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh192 Group111 leaf_group8 Tulips_window_planter1 Model Mesh_FrontColor
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh192 Group111 leaf_group8 Tulips_window_planter1 Model Mesh__Light_Oliv_
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.662745 0.729412 0.392157
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh193 Sm_Leaf9 leaf_group8 Tulips_window_planter1 Model Mesh__DarkSeaGreen_
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.560784 0.737255 0.560784
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh194 Lg_Leaf9 leaf_group8 Tulips_window_planter1 Model Mesh__DarkSeaGreen_
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.560784 0.737255 0.560784
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh195 Lg_Bent_Leaf9 leaf_group8 Tulips_window_planter1 Model Mesh__DarkSeaGreen_
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.560784 0.737255 0.560784
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh196 Group112 Component_4_6 Tulips_window_planter1 Model Mesh_FrontColor
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh197 Component_4_6 Tulips_window_planter1 Model Mesh_FrontColor
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh198 Group113 Component_5_1 Tulips_window_planter1 Model Mesh__LightCoral_
+illum 2
 Ka 0.000000 0.000000 0.000000
 Kd 0.941176 0.501961 0.501961
 Ks 0.330000 0.330000 0.330000
+Ns 0.000000
 
-newmtl vvvSandyBrown
+newmtl Mesh199 Component_5_1 Tulips_window_planter1 Model Mesh_FrontColor
+illum 2
 Ka 0.000000 0.000000 0.000000
-Kd 0.956863 0.643137 0.376471
+Kd 1.000000 1.000000 1.000000
 Ks 0.330000 0.330000 0.330000
+Ns 0.000000
 
-newmtl _DarkGoldenrod_
+newmtl Mesh2 G_3DGeom_1 Assembly_1 SimLab_2015_04_07_15_25_20_1 Model Mesh__17
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.866667 0.690196 0.796078
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh2 G_3DGeom_1 Assembly_1 SimLab_2015_04_07_15_25_20_1 Model Mesh__19
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.752941 0.278431 0.172549
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh20 Balloon5 Balloons1 Model Mesh__37
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.400000 1.000000 0.400000
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh200 Group114 Component_4_7 Tulips_window_planter1 Model Mesh_FrontColor
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh201 Component_4_7 Tulips_window_planter1 Model Mesh_FrontColor
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh202 Group115 leaf_group9 Tulips_window_planter1 Model Mesh_FrontColor
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh202 Group115 leaf_group9 Tulips_window_planter1 Model Mesh__Light_Oliv_
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.662745 0.729412 0.392157
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh203 Sm_Leaf10 leaf_group9 Tulips_window_planter1 Model Mesh__DarkSeaGreen_
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.560784 0.737255 0.560784
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh204 Lg_Leaf10 leaf_group9 Tulips_window_planter1 Model Mesh__DarkSeaGreen_
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.560784 0.737255 0.560784
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh205 Lg_Bent_Leaf10 leaf_group9 Tulips_window_planter1 Model Mesh__DarkSeaGreen_
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.560784 0.737255 0.560784
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh206 Group116 Component_5_2 Tulips_window_planter1 Model Mesh__LightCoral_
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.941176 0.501961 0.501961
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh207 Component_5_2 Tulips_window_planter1 Model Mesh_FrontColor
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh208 Group117 leaf_group10 Tulips_window_planter1 Model Mesh_FrontColor
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh208 Group117 leaf_group10 Tulips_window_planter1 Model Mesh__Light_Oliv_
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.662745 0.729412 0.392157
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh209 Sm_Leaf11 leaf_group10 Tulips_window_planter1 Model Mesh__DarkSeaGreen_
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.560784 0.737255 0.560784
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh21 Balloon5 Balloons1 Model Mesh__43
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.600000 0.600000 0.600000
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh210 Lg_Leaf11 leaf_group10 Tulips_window_planter1 Model Mesh__DarkSeaGreen_
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.560784 0.737255 0.560784
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh211 Lg_Bent_Leaf11 leaf_group10 Tulips_window_planter1 Model Mesh__DarkSeaGreen_
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.560784 0.737255 0.560784
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh212 Group118 Component_5_3 Tulips_window_planter1 Model Mesh__LightCoral_
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.941176 0.501961 0.501961
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh213 Component_5_3 Tulips_window_planter1 Model Mesh_FrontColor
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh214 Tulips_window_planter1 Model Mesh_FrontColor
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh214 Tulips_window_planter1 Model Mesh__DarkGoldenrod_
+illum 2
 Ka 0.000000 0.000000 0.000000
 Kd 0.721569 0.525490 0.043137
 Ks 0.330000 0.330000 0.330000
+Ns 0.000000
 
-newmtl _45
+newmtl Mesh214 Tulips_window_planter1 Model Mesh_vvvSandyBrown
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.956863 0.643137 0.376471
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh215 window1 Model Mesh_FrontColor
+illum 2
 Ka 0.000000 0.000000 0.000000
 Kd 1.000000 1.000000 1.000000
 Ks 0.330000 0.330000 0.330000
-d 0.160000
+Ns 0.000000
 
-newmtl _46
+newmtl Mesh215 window1 Model Mesh__45
+illum 2
 Ka 0.000000 0.000000 0.000000
 Kd 1.000000 1.000000 1.000000
 Ks 0.330000 0.330000 0.330000
+Ns 0.000000
 
-newmtl _48
+newmtl Mesh215 window1 Model Mesh__46
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh216 window1 Model Mesh_FrontColor
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh217 Group120 Group119 Rocking_horse_Latvian1 Model Mesh__48
+illum 2
 Ka 0.000000 0.000000 0.000000
 Kd 0.870588 0.713725 0.580392
 Ks 0.330000 0.330000 0.330000
-map_Kd partydog/_48.jpg
+Ns 0.000000
+map_Kd _48.jpg
 
-newmtl _49
+newmtl Mesh217 Group120 Group119 Rocking_horse_Latvian1 Model Mesh__49
+illum 2
 Ka 0.000000 0.000000 0.000000
 Kd 0.921569 0.796078 0.643137
 Ks 0.330000 0.330000 0.330000
-map_Kd partydog/_49.jpg
+Ns 0.000000
+map_Kd _49.jpg
 
-newmtl klasika1large_3
+newmtl Mesh218 Component_8_1 Group119 Rocking_horse_Latvian1 Model Mesh__49
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.921569 0.796078 0.643137
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+map_Kd _49.jpg
+
+newmtl Mesh218 Component_8_1 Group119 Rocking_horse_Latvian1 Model Mesh_klasika1large_3
+illum 2
 Ka 0.000000 0.000000 0.000000
 Kd 0.780392 0.639216 0.498039
 Ks 0.330000 0.330000 0.330000
-map_Kd partydog/klasika1large_3.jpg
+Ns 0.000000
+map_Kd klasika1large_3.jpg
 
-newmtl klasika1large_3_1_
+newmtl Mesh218 Component_8_1 Group119 Rocking_horse_Latvian1 Model Mesh_klasika1large_3_1_
+illum 2
 Ka 0.000000 0.000000 0.000000
 Kd 0.780392 0.639216 0.498039
 Ks 0.330000 0.330000 0.330000
-map_Kd partydog/klasika1large_3_1_.jpg
+Ns 0.000000
+map_Kd klasika1large_3_1_.jpg
 
-newmtl klasika1large_3_2_
+newmtl Mesh218 Component_8_1 Group119 Rocking_horse_Latvian1 Model Mesh_klasika1large_3_2_
+illum 2
 Ka 0.000000 0.000000 0.000000
 Kd 0.780392 0.639216 0.498039
 Ks 0.330000 0.330000 0.330000
-map_Kd partydog/klasika1large_3_2_.jpg
+Ns 0.000000
+map_Kd klasika1large_3_2_.jpg
 
-newmtl klasika1large_5
+newmtl Mesh219 Component_8_2 Group119 Rocking_horse_Latvian1 Model Mesh__49
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.921569 0.796078 0.643137
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+map_Kd _49.jpg
+
+newmtl Mesh219 Component_8_2 Group119 Rocking_horse_Latvian1 Model Mesh_klasika1large_3
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.780392 0.639216 0.498039
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+map_Kd klasika1large_3.jpg
+
+newmtl Mesh219 Component_8_2 Group119 Rocking_horse_Latvian1 Model Mesh_klasika1large_3_1_
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.780392 0.639216 0.498039
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+map_Kd klasika1large_3_1_.jpg
+
+newmtl Mesh219 Component_8_2 Group119 Rocking_horse_Latvian1 Model Mesh_klasika1large_3_2_
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.780392 0.639216 0.498039
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+map_Kd klasika1large_3_2_.jpg
+
+newmtl Mesh22 Balloon6 Balloons1 Model Mesh__36
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 0.400000 0.400000
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh220 Component_6_1 Group_9_1 Group119 Rocking_horse_Latvian1 Model Mesh__49
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.921569 0.796078 0.643137
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+map_Kd _49.jpg
+
+newmtl Mesh221 Component_6_2 Group_9_2 Group119 Rocking_horse_Latvian1 Model Mesh__49
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.921569 0.796078 0.643137
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+map_Kd _49.jpg
+
+newmtl Mesh222 Group_10_1 Group119 Rocking_horse_Latvian1 Model Mesh__49
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.921569 0.796078 0.643137
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+map_Kd _49.jpg
+
+newmtl Mesh223 Group_11_1 Group119 Rocking_horse_Latvian1 Model Mesh__48
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.870588 0.713725 0.580392
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+map_Kd _48.jpg
+
+newmtl Mesh223 Group_11_1 Group119 Rocking_horse_Latvian1 Model Mesh__49
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.921569 0.796078 0.643137
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+map_Kd _49.jpg
+
+newmtl Mesh223 Group_11_1 Group119 Rocking_horse_Latvian1 Model Mesh_klasika1large_5
+illum 2
 Ka 0.000000 0.000000 0.000000
 Kd 0.972549 0.937255 0.894118
 Ks 0.330000 0.330000 0.330000
-map_Kd partydog/klasika1large_5.jpg
+Ns 0.000000
+map_Kd klasika1large_5.jpg
 
-newmtl klasika1large_7
+newmtl Mesh223 Group_11_1 Group119 Rocking_horse_Latvian1 Model Mesh_klasika1large_6
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.972549 0.941176 0.905882
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+map_Kd klasika1large_6.jpg
+
+newmtl Mesh223 Group_11_1 Group119 Rocking_horse_Latvian1 Model Mesh_klasika1large_7
+illum 2
 Ka 0.000000 0.000000 0.000000
 Kd 0.968627 0.937255 0.898039
 Ks 0.330000 0.330000 0.330000
-map_Kd partydog/klasika1large_7.jpg
+Ns 0.000000
+map_Kd klasika1large_7.jpg
 
-newmtl klasika1large_8
+newmtl Mesh223 Group_11_1 Group119 Rocking_horse_Latvian1 Model Mesh_klasika1large_8
+illum 2
 Ka 0.000000 0.000000 0.000000
 Kd 0.972549 0.941176 0.905882
 Ks 0.330000 0.330000 0.330000
-map_Kd partydog/klasika1large_8.jpg
+Ns 0.000000
+map_Kd klasika1large_8.jpg
 
-newmtl klasika1large_6
+newmtl Mesh224 Group_11_2 Group119 Rocking_horse_Latvian1 Model Mesh__48
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.870588 0.713725 0.580392
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+map_Kd _48.jpg
+
+newmtl Mesh224 Group_11_2 Group119 Rocking_horse_Latvian1 Model Mesh__49
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.921569 0.796078 0.643137
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+map_Kd _49.jpg
+
+newmtl Mesh224 Group_11_2 Group119 Rocking_horse_Latvian1 Model Mesh_klasika1large_5
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.972549 0.937255 0.894118
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+map_Kd klasika1large_5.jpg
+
+newmtl Mesh224 Group_11_2 Group119 Rocking_horse_Latvian1 Model Mesh_klasika1large_6
+illum 2
 Ka 0.000000 0.000000 0.000000
 Kd 0.972549 0.941176 0.905882
 Ks 0.330000 0.330000 0.330000
-map_Kd partydog/klasika1large_6.jpg
+Ns 0.000000
+map_Kd klasika1large_6.jpg
 
-newmtl klasika1large_1
+newmtl Mesh224 Group_11_2 Group119 Rocking_horse_Latvian1 Model Mesh_klasika1large_7
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.968627 0.937255 0.898039
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+map_Kd klasika1large_7.jpg
+
+newmtl Mesh224 Group_11_2 Group119 Rocking_horse_Latvian1 Model Mesh_klasika1large_8
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.972549 0.941176 0.905882
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+map_Kd klasika1large_8.jpg
+
+newmtl Mesh225 Component_7_1 Group119 Rocking_horse_Latvian1 Model Mesh__49
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.921569 0.796078 0.643137
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+map_Kd _49.jpg
+
+newmtl Mesh225 Component_7_1 Group119 Rocking_horse_Latvian1 Model Mesh_klasika1large_3_1_
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.780392 0.639216 0.498039
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+map_Kd klasika1large_3_1_.jpg
+
+newmtl Mesh226 Component_10_1 Group119 Rocking_horse_Latvian1 Model Mesh_FrontColor
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh226 Component_10_1 Group119 Rocking_horse_Latvian1 Model Mesh__49
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.921569 0.796078 0.643137
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+map_Kd _49.jpg
+
+newmtl Mesh226 Component_10_1 Group119 Rocking_horse_Latvian1 Model Mesh_klasika1large_1
+illum 2
 Ka 0.000000 0.000000 0.000000
 Kd 0.960784 0.949020 0.933333
 Ks 0.330000 0.330000 0.330000
-map_Kd partydog/klasika1large_1.jpg
+Ns 0.000000
+map_Kd klasika1large_1.jpg
 
-newmtl klasika1large_2
+newmtl Mesh227 Component_6_3 Group_9_3 Group119 Rocking_horse_Latvian1 Model Mesh__49
+illum 2
 Ka 0.000000 0.000000 0.000000
-Kd 0.752941 0.650980 0.556863
+Kd 0.921569 0.796078 0.643137
 Ks 0.330000 0.330000 0.330000
-map_Kd partydog/klasika1large_2.jpg
+Ns 0.000000
+map_Kd _49.jpg
 
-newmtl _47
+newmtl Mesh228 Component_10_2 Group119 Rocking_horse_Latvian1 Model Mesh_FrontColor
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh228 Component_10_2 Group119 Rocking_horse_Latvian1 Model Mesh__49
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.921569 0.796078 0.643137
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+map_Kd _49.jpg
+
+newmtl Mesh228 Component_10_2 Group119 Rocking_horse_Latvian1 Model Mesh_klasika1large_1
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.960784 0.949020 0.933333
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+map_Kd klasika1large_1.jpg
+
+newmtl Mesh229 Component_9_1 Group119 Rocking_horse_Latvian1 Model Mesh_FrontColor
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh229 Component_9_1 Group119 Rocking_horse_Latvian1 Model Mesh__47
+illum 2
 Ka 0.000000 0.000000 0.000000
 Kd 0.066667 0.078431 0.101961
 Ks 0.330000 0.330000 0.330000
+Ns 0.000000
 
-newmtl _34
+newmtl Mesh229 Component_9_1 Group119 Rocking_horse_Latvian1 Model Mesh__48
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.870588 0.713725 0.580392
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+map_Kd _48.jpg
+
+newmtl Mesh229 Component_9_1 Group119 Rocking_horse_Latvian1 Model Mesh_klasika1large_2
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.752941 0.650980 0.556863
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+map_Kd klasika1large_2.jpg
+
+newmtl Mesh23 Balloon6 Balloons1 Model Mesh__43
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.600000 0.600000 0.600000
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh230 katto1 Model Mesh__34
+illum 2
 Ka 0.000000 0.000000 0.000000
 Kd 0.996078 1.000000 0.956863
 Ks 0.330000 0.330000 0.330000
+Ns 0.000000
 
-newmtl _31
+newmtl Mesh231 sivusein__1_1 Model Mesh__31
+illum 2
 Ka 0.000000 0.000000 0.000000
 Kd 0.847059 1.000000 0.000000
 Ks 0.330000 0.330000 0.330000
+Ns 0.000000
 
-newmtl _32
+newmtl Mesh232 takasein_1 Model Mesh__32
+illum 2
 Ka 0.000000 0.000000 0.000000
 Kd 0.909804 1.000000 0.000000
 Ks 0.330000 0.330000 0.330000
+Ns 0.000000
 
-newmtl M_0036_BurlyWood
+newmtl Mesh233 sivusein__2_1 Model Mesh__32
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.909804 1.000000 0.000000
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh234 etusein_1 Model Mesh_FrontColor
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh235 Model Mesh_M_0036_BurlyWood
+illum 2
 Ka 0.000000 0.000000 0.000000
 Kd 0.870588 0.721569 0.529412
 Ks 0.330000 0.330000 0.330000
+Ns 0.000000
 
-newmtl patterns
+newmtl Mesh236 Model Mesh_patterns
+illum 2
 Ka 0.000000 0.000000 0.000000
 Kd 0.501961 0.501961 0.501961
 Ks 0.000000 0.000000 0.000000
-map_Kd partydog/patterns.jpg
+Ns 0.000000
+map_Kd patterns.jpg
+
+newmtl Mesh24 Balloon7 Balloons1 Model Mesh__39
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.400000 1.000000 1.000000
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh25 Balloon7 Balloons1 Model Mesh__43
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.600000 0.600000 0.600000
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh26 Balloon8 Balloons1 Model Mesh__41
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.400000 1.000000
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh27 Balloon8 Balloons1 Model Mesh__43
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.600000 0.600000 0.600000
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh28 Birthday_hat1 Model Mesh_Color_I06
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.000000 0.000000 0.800000
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh28 Birthday_hat1 Model Mesh_M_0063_GreenYellow
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.678431 1.000000 0.184314
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh29 Component_2_1 Component_3_1 Model Mesh_M_0002_MediumVioletRed
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.780392 0.082353 0.521569
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh3 G_3DGeom_1 Assembly_1 SimLab_2015_04_07_15_25_20_1 Model Mesh__17
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.000000 0.690196 0.796078
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh30 Component_2_2 Component_3_1 Model Mesh_M_0002_MediumVioletRed
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.780392 0.082353 0.521569
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh31 Component_2_3 Component_3_1 Model Mesh_M_0002_MediumVioletRed
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.780392 0.082353 0.521569
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh32 Component_2_4 Component_3_1 Model Mesh_M_0002_MediumVioletRed
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.780392 0.082353 0.521569
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh33 Component_2_5 Component_3_1 Model Mesh_M_0002_MediumVioletRed
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.780392 0.082353 0.521569
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh34 Component_2_6 Component_3_1 Model Mesh_M_0002_MediumVioletRed
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.780392 0.082353 0.521569
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh35 Component_2_7 Component_3_1 Model Mesh_M_0002_MediumVioletRed
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.780392 0.082353 0.521569
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh36 Component_2_8 Component_3_1 Model Mesh_M_0002_MediumVioletRed
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.780392 0.082353 0.521569
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh37 Component_2_9 Component_3_1 Model Mesh_M_0002_MediumVioletRed
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.780392 0.082353 0.521569
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh38 Component_2_10 Component_3_1 Model Mesh_M_0002_MediumVioletRed
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.780392 0.082353 0.521569
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh39 Component_2_11 Component_3_1 Model Mesh_M_0002_MediumVioletRed
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.780392 0.082353 0.521569
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh4 G_3DGeom_2 Assembly_1 SimLab_2015_04_07_15_25_20_1 Model Mesh_Button_Eyes_Blend_Shapes_grouped_export_phongE1SG1
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.000000 0.000000 0.000000
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh40 Component_2_12 Component_3_2 Model Mesh_M_0002_MediumVioletRed
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.780392 0.082353 0.521569
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh41 Component_2_13 Component_3_2 Model Mesh_M_0002_MediumVioletRed
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.780392 0.082353 0.521569
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh42 Component_2_14 Component_3_2 Model Mesh_M_0002_MediumVioletRed
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.780392 0.082353 0.521569
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh43 Component_2_15 Component_3_2 Model Mesh_M_0002_MediumVioletRed
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.780392 0.082353 0.521569
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh44 Component_2_16 Component_3_2 Model Mesh_M_0002_MediumVioletRed
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.780392 0.082353 0.521569
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh45 Component_2_17 Component_3_2 Model Mesh_M_0002_MediumVioletRed
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.780392 0.082353 0.521569
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh46 Component_2_18 Component_3_2 Model Mesh_M_0002_MediumVioletRed
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.780392 0.082353 0.521569
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh47 Component_2_19 Component_3_2 Model Mesh_M_0002_MediumVioletRed
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.780392 0.082353 0.521569
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh48 Component_2_20 Component_3_2 Model Mesh_M_0002_MediumVioletRed
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.780392 0.082353 0.521569
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh49 Component_2_21 Component_3_2 Model Mesh_M_0002_MediumVioletRed
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.780392 0.082353 0.521569
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh5 G_3DGeom_2 Assembly_1 SimLab_2015_04_07_15_25_20_1 Model Mesh_Button_Eyes_Blend_Shapes_grouped_export_phongE1SG1
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.000000 0.000000 0.000000
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh50 Component_2_22 Component_3_2 Model Mesh_M_0002_MediumVioletRed
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.780392 0.082353 0.521569
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh51 Group3 Group2 Group1 Flowers1 Model Mesh_Color_A09
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.478431 0.478431
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh52 Group4 Group2 Group1 Flowers1 Model Mesh_Color_A09
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.478431 0.478431
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh53 Group5 Group2 Group1 Flowers1 Model Mesh_Color_A09
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.478431 0.478431
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh54 Group6 Group2 Group1 Flowers1 Model Mesh_Color_A09
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.478431 0.478431
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh55 Group7 Group2 Group1 Flowers1 Model Mesh_Color_A09
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.478431 0.478431
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh56 Group8 Group2 Group1 Flowers1 Model Mesh_Color_A09
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.478431 0.478431
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh57 Group9 Group2 Group1 Flowers1 Model Mesh_Color_A09
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.478431 0.478431
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh58 Group10 Group2 Group1 Flowers1 Model Mesh_Color_A09
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.478431 0.478431
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh59 Group11 Group2 Group1 Flowers1 Model Mesh_Color_A09
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.478431 0.478431
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh6 christmas_presents1 Model Mesh_FrontColor
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh6 christmas_presents1 Model Mesh__DarkGreen_
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.000000 0.392157 0.000000
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh6 christmas_presents1 Model Mesh__DarkRed_
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.545098 0.000000 0.000000
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh60 Group12 Group2 Group1 Flowers1 Model Mesh_Color_A09
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.478431 0.478431
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh61 Group13 Group2 Group1 Flowers1 Model Mesh_Color_A09
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.478431 0.478431
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh62 Group14 Group2 Group1 Flowers1 Model Mesh_Color_A09
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.478431 0.478431
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh63 Group15 Group2 Group1 Flowers1 Model Mesh_Color_A09
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.478431 0.478431
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh64 Group16 Group2 Group1 Flowers1 Model Mesh_Color_A09
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.478431 0.478431
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh65 Group17 Group2 Group1 Flowers1 Model Mesh_Color_A09
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.478431 0.478431
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh66 Group18 Group2 Group1 Flowers1 Model Mesh_Color_A09
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.478431 0.478431
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh67 Group19 Group2 Group1 Flowers1 Model Mesh_Color_A09
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.478431 0.478431
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh68 Group20 Group2 Group1 Flowers1 Model Mesh_Color_A09
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.478431 0.478431
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh69 Group21 Group2 Group1 Flowers1 Model Mesh_Color_A09
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.478431 0.478431
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh7 christmas_presents1 Model Mesh__DarkGreen_
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.000000 0.392157 0.000000
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh70 Group22 Group2 Group1 Flowers1 Model Mesh_Color_A09
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.478431 0.478431
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh71 Group23 Group2 Group1 Flowers1 Model Mesh_Color_A09
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.478431 0.478431
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh72 Group24 Group2 Group1 Flowers1 Model Mesh_Color_A09
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.478431 0.478431
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh73 Group25 Group2 Group1 Flowers1 Model Mesh_Color_A09
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.478431 0.478431
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh74 Group26 Group2 Group1 Flowers1 Model Mesh_Color_A09
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.478431 0.478431
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh75 Group27 Group2 Group1 Flowers1 Model Mesh_Color_A09
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.478431 0.478431
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh76 Group28 Group2 Group1 Flowers1 Model Mesh_Color_A09
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.478431 0.478431
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh77 Group29 Group2 Group1 Flowers1 Model Mesh_Color_E04
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 0.600000
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh77 Group29 Group2 Group1 Flowers1 Model Mesh_Color_F14
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.478431 0.600000 0.356863
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh78 Group30 Group2 Group1 Flowers1 Model Mesh_Color_A09
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.478431 0.478431
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh79 Group31 Group2 Group1 Flowers1 Model Mesh_Color_A09
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.478431 0.478431
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh8 christmas_presents1 Model Mesh__DarkGreen_
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.000000 0.392157 0.000000
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh80 Group32 Group2 Group1 Flowers1 Model Mesh_Color_A09
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.478431 0.478431
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh81 Group33 Group2 Group1 Flowers1 Model Mesh_Color_A09
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.478431 0.478431
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh82 Group34 Group1 Flowers1 Model Mesh_Color_002
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.776471 0.776471 0.776471
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh82 Group34 Group1 Flowers1 Model Mesh_Color_H09
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.478431 0.800000 0.800000
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh83 Group36 Group35 Group1 Flowers1 Model Mesh_Color_A09
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.478431 0.478431
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh84 Group37 Group35 Group1 Flowers1 Model Mesh_Color_A09
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.478431 0.478431
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh85 Group38 Group35 Group1 Flowers1 Model Mesh_Color_A09
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.478431 0.478431
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh86 Group39 Group35 Group1 Flowers1 Model Mesh_Color_A09
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.478431 0.478431
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh87 Group40 Group35 Group1 Flowers1 Model Mesh_Color_A09
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.478431 0.478431
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh88 Group41 Group35 Group1 Flowers1 Model Mesh_Color_A09
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.478431 0.478431
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh89 Group42 Group35 Group1 Flowers1 Model Mesh_Color_A09
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.478431 0.478431
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh9 christmas_presents1 Model Mesh__Gold_
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 0.843137 0.000000
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh90 Group43 Group35 Group1 Flowers1 Model Mesh_Color_A09
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.478431 0.478431
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh91 Group44 Group35 Group1 Flowers1 Model Mesh_Color_A09
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.478431 0.478431
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh92 Group45 Group35 Group1 Flowers1 Model Mesh_Color_A09
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.478431 0.478431
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh93 Group46 Group35 Group1 Flowers1 Model Mesh_Color_A09
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.478431 0.478431
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh94 Group47 Group35 Group1 Flowers1 Model Mesh_Color_A09
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.478431 0.478431
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh95 Group48 Group35 Group1 Flowers1 Model Mesh_Color_A09
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.478431 0.478431
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh96 Group49 Group35 Group1 Flowers1 Model Mesh_Color_A09
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.478431 0.478431
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh97 Group50 Group35 Group1 Flowers1 Model Mesh_Color_A09
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.478431 0.478431
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh98 Group51 Group35 Group1 Flowers1 Model Mesh_Color_A09
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.478431 0.478431
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
+
+newmtl Mesh99 Group52 Group35 Group1 Flowers1 Model Mesh_Color_A09
+illum 2
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.478431 0.478431
+Ks 0.330000 0.330000 0.330000
+Ns 0.000000
 
